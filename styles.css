@@ -1,0 +1,45 @@
+#main-doc{
+    margin-left: 308px;
+    margin-right: 8px;*/
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.main-section>header{
+    font-size: 30px;
+}
+
+#codigo{
+    background-color: rgb(230, 232, 233);
+    padding: 10px;
+    border-radius: 5px;
+}
+code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+#navbar{
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li{
+    padding: 13px;
+    border: 1px black solid;
+}
+
+.nav-link{
+    text-decoration:dotted;
+    display: block;
+    color: black;
+}
