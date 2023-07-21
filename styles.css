@@ -1,6 +1,6 @@
 #main-doc{
-    margin-left: 308px;
-    margin-right: 8px;*/
+    margin-left: 310px;
+    margin-right: 8px;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(50, 49, 49);
 }
@@ -25,8 +25,13 @@ code{
     left: 0;
     top: 0;
     height: 100%;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#navbar header{
+    text-align: center;
+    border: 1px black solid;
+}
 #navbar ul{
     list-style: none;
     padding: 0;
