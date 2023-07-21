@@ -1,6 +1,8 @@
+
+
 #main-doc{
     margin-left: 310px;
-    margin-right: 8px;
+    margin-right: 10px;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(50, 49, 49);
 }
@@ -48,3 +50,22 @@ code{
     display: block;
     color: black;
 }
+@media (max-width: 800px) {
+    #navbar {
+      width:90%;
+      position: absolute;
+      left: 30px;
+      right: 10px;
+      height:300px;
+      overflow-x: auto;
+    }
+    #main-doc{
+        position: absolute;
+        top:320px;
+        margin-left: 20px;
+    }
+    #navbar li{
+        padding: 10px;
+        border: 1px black solid;
+    }
+  }
